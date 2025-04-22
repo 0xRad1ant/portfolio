@@ -193,6 +193,21 @@ let info = {
 
   portfolio: [
     {
+      name: "Self-Destructing Pastebin",
+      pictures: [
+        {
+          img: require("./src/assets/portfolio/pastebin.png")
+        },
+      ],
+      technologies: ["Cloudflare Workers", "KV Storage", "HTML", "Basic Auth", "Crypto API"],
+      category: "Web Development",
+      date: "Apr, 2025",
+      // github: "https://github.com/0xRad1ant/self-destruct-pastebin", // (adjust if needed)
+      visit: "https://bin.itsradiant.me/",
+      description:
+        "A serverless, self-destructing pastebin built using Cloudflare Workers and KV. Supports password-protected notes, one-time access, note expiration, and a sleek dark glassy UI. Includes Basic Authentication for management and a minimal frontend for quick note creation."
+    },
+    {
       name: "Malware Analysis Sandbox",
       pictures: [
         {
